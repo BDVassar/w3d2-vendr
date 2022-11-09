@@ -1,1 +1,10 @@
 /* BASIC STYLES HERE */
+
+body{
+  height: 100vh;
+}
+
+.snackImg {
+  height: 20vh;
+  width: min-content;
+}

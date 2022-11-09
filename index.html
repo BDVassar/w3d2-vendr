@@ -25,15 +25,45 @@
       </a>
     </nav>
   </header>
+
   <main>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+      <section id='vendrMachine' class="row justify-content-center p-5">
+        <!-- <div class="col-12 col-md-3 card shadow">
+          <h1>Name</h1>
+          <h4>Price</h4>
+          <button class="btn btn-primary" onclick="getSnack()"></button>
+        </div> -->
+      </section>
+      <section id="seclectedSnack" class="row justify-content-center">
+        <!-- <div class="col-12 col-md-3 card shadow p-3 text-center justify-content-center align-items-center bg-dark
+          text-light m-2">
+          <img class="img-fluid snackImg" src="${this.img}" alt="">
+          <h1>${this.name}</h1>
+          <h4>${this.qty}</h4>
+          <button class="btn btn-primary rounded-pill mdi mdi-delete"
+            onclick="app.snacksController.removeSnack('${this.name}')"></button>
+        </div> -->
+      </section>
+      <section class="row justify-content-center">
+        <div class="col-12 col-md-3 card shadow flex-row p-3 justify-content-evenly">
+          <button class="btn btn-primary" onclick="app.moneyController.getMoney()">Get Money</button>
+          <h1 id="money"></h1>
         </div>
-      </div>
-    </div>
+      </section>
+      <section id="mySnack" class="row justify-content-center">
+        <!-- <div class="col-12 col-md-3 card shadow p-3 text-center justify-content-center align-items-center bg-dark
+          text-light m-2">
+          <img class="img-fluid snackImg" src="${this.img}" alt="">
+          <h1>${this.name}</h1>
+          <h4>${this.qty}</h4>
+          <button class="btn btn-primary rounded-pill mdi mdi-delete"
+            onclick="app.snacksController.removeSnack('${this.name}')"></button>
+        </div> -->
+      </section>
   </main>
+  <img src="" alt="">
+
   <footer class="bg-dark text-light">
     <div class="text-center no-select">
       <p><small>Made with 💖 by CodeWorks</small></p>
